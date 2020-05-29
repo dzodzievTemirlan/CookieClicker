@@ -57,9 +57,9 @@
                                         <rect key="frame" x="0.0" y="387.5" width="414" height="386.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5a-PV-gxg">
-                                                <rect key="frame" x="107" y="93.5" width="200" height="200"/>
+                                                <rect key="frame" x="107" y="98.5" width="200" height="190"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="3Uc-w8-zBU"/>
+                                                    <constraint firstAttribute="height" constant="190" id="3Uc-w8-zBU"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="fpp-mm-CS6"/>
                                                 </constraints>
                                                 <state key="normal" title="Button">
@@ -161,7 +161,11 @@
                                         <rect key="frame" x="0.0" y="387.5" width="414" height="386.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4P8-8C-Qdk">
-                                                <rect key="frame" x="184" y="178.5" width="46" height="30"/>
+                                                <rect key="frame" x="107" y="93.5" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="2Ec-0d-ibD"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="M6E-Xb-IXp"/>
+                                                </constraints>
                                                 <state key="normal" title="Button">
                                                     <color key="titleColor" red="0.18823529410000001" green="0.22352941179999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>

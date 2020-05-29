@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     var counter: Int = 0{
         willSet(someValue){
             if someValue % 2 == 0{
-            animate()
+                animate()
             }
         }
         
@@ -34,19 +34,13 @@ class ViewController: UIViewController {
             userDefault.set(counter, forKey: Keys.userResult.rawValue)
         }
     }
-//    private let navColor = UIColor(red: 48, green: 57, blue: 86, alpha: 100)
-//
-//    override func viewWillAppear(_ animated: Bool) {
-//           guard let navBar = navigationController?.navigationBar else {
-//               fatalError("Navigation controller does not exist")
-//           }
-//        navBar.backgroundColor = navColor
-//       }
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         counter = userDefault.integer(forKey: Keys.userResult.rawValue)
+        navBarCustom()
     }
     
     
@@ -73,7 +67,17 @@ class ViewController: UIViewController {
         nextViewButton.layer.shadowOpacity = 0.5
         nextViewButton.layer.shadowRadius = 2
     }
+    
+    func navBarCustom(){
+        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
+        navigationController?.navigationBar.tintColor = .white
+        
+    }
+    
 }
+
 
 
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -67,14 +67,30 @@
 			children = (
 				796A7700248007C000F9B9F6 /* AppDelegate.swift */,
 				796A7702248007C000F9B9F6 /* SceneDelegate.swift */,
-				796A7704248007C000F9B9F6 /* ViewController.swift */,
-				796A7706248007C000F9B9F6 /* Main.storyboard */,
-				79D2F05E2480E87B00C362D6 /* SecondViewController.swift */,
+				79D2F0602481369600C362D6 /* Controllers */,
+				79D2F061248136A200C362D6 /* View */,
 				796A7709248007C500F9B9F6 /* Assets.xcassets */,
 				796A770B248007C500F9B9F6 /* LaunchScreen.storyboard */,
 				796A770E248007C500F9B9F6 /* Info.plist */,
 			);
 			path = CookieClicker;
+			sourceTree = "<group>";
+		};
+		79D2F0602481369600C362D6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				796A7704248007C000F9B9F6 /* ViewController.swift */,
+				79D2F05E2480E87B00C362D6 /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		79D2F061248136A200C362D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				796A7706248007C000F9B9F6 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AC21297D67331D3CA29C7149 /* Pods */ = {
@@ -83,7 +99,6 @@
 				8574BA773927DA60622D85B6 /* Pods-CookieClicker.debug.xcconfig */,
 				D77D27DE5C64205C82382E8B /* Pods-CookieClicker.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
