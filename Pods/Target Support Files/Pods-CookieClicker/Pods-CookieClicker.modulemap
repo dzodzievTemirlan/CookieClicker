@@ -1,0 +1,6 @@
+framework module Pods_CookieClicker {
+  umbrella header "Pods-CookieClicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

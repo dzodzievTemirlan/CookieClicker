@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6865920933E85C4F1802572A /* Pods_CookieClicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E938F73B75F8B3A291B751 /* Pods_CookieClicker.framework */; };
+		796A7701248007C000F9B9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7700248007C000F9B9F6 /* AppDelegate.swift */; };
+		796A7703248007C000F9B9F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7702248007C000F9B9F6 /* SceneDelegate.swift */; };
+		796A7705248007C000F9B9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7704248007C000F9B9F6 /* ViewController.swift */; };
+		796A7708248007C000F9B9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A7706248007C000F9B9F6 /* Main.storyboard */; };
+		796A770A248007C500F9B9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796A7709248007C500F9B9F6 /* Assets.xcassets */; };
+		796A770D248007C500F9B9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A770B248007C500F9B9F6 /* LaunchScreen.storyboard */; };
+		79D2F05F2480E87B00C362D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D2F05E2480E87B00C362D6 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		796A76FD248007C000F9B9F6 /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A7700248007C000F9B9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		796A7702248007C000F9B9F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		796A7704248007C000F9B9F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		796A7707248007C000F9B9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		796A7709248007C500F9B9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796A770C248007C500F9B9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		796A770E248007C500F9B9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D2F05E2480E87B00C362D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		83E938F73B75F8B3A291B751 /* Pods_CookieClicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieClicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8574BA773927DA60622D85B6 /* Pods-CookieClicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieClicker.debug.xcconfig"; path = "Target Support Files/Pods-CookieClicker/Pods-CookieClicker.debug.xcconfig"; sourceTree = "<group>"; };
+		D77D27DE5C64205C82382E8B /* Pods-CookieClicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieClicker.release.xcconfig"; path = "Target Support Files/Pods-CookieClicker/Pods-CookieClicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796A76FA248007C000F9B9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6865920933E85C4F1802572A /* Pods_CookieClicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796A76F4248007BF00F9B9F6 = {
+			isa = PBXGroup;
+			children = (
+				796A76FF248007C000F9B9F6 /* CookieClicker */,
+				796A76FE248007C000F9B9F6 /* Products */,
+				AC21297D67331D3CA29C7149 /* Pods */,
+				DB6AE0024C45D8676D77246A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		796A76FE248007C000F9B9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796A76FD248007C000F9B9F6 /* CookieClicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796A76FF248007C000F9B9F6 /* CookieClicker */ = {
+			isa = PBXGroup;
+			children = (
+				796A7700248007C000F9B9F6 /* AppDelegate.swift */,
+				796A7702248007C000F9B9F6 /* SceneDelegate.swift */,
+				796A7704248007C000F9B9F6 /* ViewController.swift */,
+				796A7706248007C000F9B9F6 /* Main.storyboard */,
+				79D2F05E2480E87B00C362D6 /* SecondViewController.swift */,
+				796A7709248007C500F9B9F6 /* Assets.xcassets */,
+				796A770B248007C500F9B9F6 /* LaunchScreen.storyboard */,
+				796A770E248007C500F9B9F6 /* Info.plist */,
+			);
+			path = CookieClicker;
+			sourceTree = "<group>";
+		};
+		AC21297D67331D3CA29C7149 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8574BA773927DA60622D85B6 /* Pods-CookieClicker.debug.xcconfig */,
+				D77D27DE5C64205C82382E8B /* Pods-CookieClicker.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB6AE0024C45D8676D77246A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83E938F73B75F8B3A291B751 /* Pods_CookieClicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796A76FC248007C000F9B9F6 /* CookieClicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796A7711248007C500F9B9F6 /* Build configuration list for PBXNativeTarget "CookieClicker" */;
+			buildPhases = (
+				90552795BD3D2A785F600C96 /* [CP] Check Pods Manifest.lock */,
+				796A76F9248007C000F9B9F6 /* Sources */,
+				796A76FA248007C000F9B9F6 /* Frameworks */,
+				796A76FB248007C000F9B9F6 /* Resources */,
+				A51FC10C5D2CCF2671450A01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookieClicker;
+			productName = CookieClicker;
+			productReference = 796A76FD248007C000F9B9F6 /* CookieClicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796A76F5248007BF00F9B9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Temirlan Dzodziev";
+				TargetAttributes = {
+					796A76FC248007C000F9B9F6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 796A76F8248007BF00F9B9F6 /* Build configuration list for PBXProject "CookieClicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796A76F4248007BF00F9B9F6;
+			productRefGroup = 796A76FE248007C000F9B9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796A76FC248007C000F9B9F6 /* CookieClicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796A76FB248007C000F9B9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796A770D248007C500F9B9F6 /* LaunchScreen.storyboard in Resources */,
+				796A770A248007C500F9B9F6 /* Assets.xcassets in Resources */,
+				796A7708248007C000F9B9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90552795BD3D2A785F600C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CookieClicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A51FC10C5D2CCF2671450A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796A76F9248007C000F9B9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D2F05F2480E87B00C362D6 /* SecondViewController.swift in Sources */,
+				796A7705248007C000F9B9F6 /* ViewController.swift in Sources */,
+				796A7701248007C000F9B9F6 /* AppDelegate.swift in Sources */,
+				796A7703248007C000F9B9F6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		796A7706248007C000F9B9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A7707248007C000F9B9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		796A770B248007C500F9B9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				796A770C248007C500F9B9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		796A770F248007C500F9B9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		796A7710248007C500F9B9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796A7712248007C500F9B9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8574BA773927DA60622D85B6 /* Pods-CookieClicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6XYWNGKK3;
+				INFOPLIST_FILE = CookieClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.1313.valuteConverter.CookieClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796A7713248007C500F9B9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77D27DE5C64205C82382E8B /* Pods-CookieClicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6XYWNGKK3;
+				INFOPLIST_FILE = CookieClicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tommy.1313.valuteConverter.CookieClicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796A76F8248007BF00F9B9F6 /* Build configuration list for PBXProject "CookieClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A770F248007C500F9B9F6 /* Debug */,
+				796A7710248007C500F9B9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796A7711248007C500F9B9F6 /* Build configuration list for PBXNativeTarget "CookieClicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796A7712248007C500F9B9F6 /* Debug */,
+				796A7713248007C500F9B9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796A76F5248007BF00F9B9F6 /* Project object */;
+}
