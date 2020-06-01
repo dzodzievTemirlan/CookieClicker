@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName=".Item" syncable="YES" codeGenerationType="class">
+        <attribute name="decsript" optional="YES" attributeType="String"/>
+        <attribute name="imageSet" optional="YES" attributeType="Binary"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LastImage" representedClassName=".LastImage" syncable="YES" codeGenerationType="class">
+        <attribute name="imageLast" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-45" positionY="0" width="128" height="88"/>
+        <element name="LastImage" positionX="-18" positionY="54" width="128" height="58"/>
+    </elements>
+</model>

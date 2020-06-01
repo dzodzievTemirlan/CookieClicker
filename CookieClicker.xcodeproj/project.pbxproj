@@ -8,16 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		6865920933E85C4F1802572A /* Pods_CookieClicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E938F73B75F8B3A291B751 /* Pods_CookieClicker.framework */; };
+		795F4F11248406BC00555749 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 795F4F0F248406BC00555749 /* DataModel.xcdatamodeld */; };
+		795F4F362484306C00555749 /* TableViewItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F4F352484306C00555749 /* TableViewItems.swift */; };
 		796A7701248007C000F9B9F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7700248007C000F9B9F6 /* AppDelegate.swift */; };
 		796A7703248007C000F9B9F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7702248007C000F9B9F6 /* SceneDelegate.swift */; };
 		796A7705248007C000F9B9F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796A7704248007C000F9B9F6 /* ViewController.swift */; };
 		796A7708248007C000F9B9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A7706248007C000F9B9F6 /* Main.storyboard */; };
 		796A770A248007C500F9B9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796A7709248007C500F9B9F6 /* Assets.xcassets */; };
 		796A770D248007C500F9B9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 796A770B248007C500F9B9F6 /* LaunchScreen.storyboard */; };
+		79AA40292483EADE00691F63 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA40282483EADE00691F63 /* ShopViewController.swift */; };
+		79AA402B2483EAF800691F63 /* ShopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AA402A2483EAF800691F63 /* ShopViewCell.swift */; };
 		79D2F05F2480E87B00C362D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D2F05E2480E87B00C362D6 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		795F4F10248406BC00555749 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		795F4F352484306C00555749 /* TableViewItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewItems.swift; sourceTree = "<group>"; };
 		796A76FD248007C000F9B9F6 /* CookieClicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieClicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796A7700248007C000F9B9F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		796A7702248007C000F9B9F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +32,8 @@
 		796A7709248007C500F9B9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		796A770C248007C500F9B9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796A770E248007C500F9B9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79AA40282483EADE00691F63 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = CookieClicker/View/ShopViewController.swift; sourceTree = SOURCE_ROOT; };
+		79AA402A2483EAF800691F63 /* ShopViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShopViewCell.swift; path = CookieClicker/Controllers/ShopViewCell.swift; sourceTree = SOURCE_ROOT; };
 		79D2F05E2480E87B00C362D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		83E938F73B75F8B3A291B751 /* Pods_CookieClicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CookieClicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574BA773927DA60622D85B6 /* Pods-CookieClicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CookieClicker.debug.xcconfig"; path = "Target Support Files/Pods-CookieClicker/Pods-CookieClicker.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +75,7 @@
 			children = (
 				796A7700248007C000F9B9F6 /* AppDelegate.swift */,
 				796A7702248007C000F9B9F6 /* SceneDelegate.swift */,
+				79AA40272483E49200691F63 /* Model */,
 				79D2F0602481369600C362D6 /* Controllers */,
 				79D2F061248136A200C362D6 /* View */,
 				796A7709248007C500F9B9F6 /* Assets.xcassets */,
@@ -76,9 +85,19 @@
 			path = CookieClicker;
 			sourceTree = "<group>";
 		};
+		79AA40272483E49200691F63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				795F4F0F248406BC00555749 /* DataModel.xcdatamodeld */,
+				795F4F352484306C00555749 /* TableViewItems.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		79D2F0602481369600C362D6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				79AA40282483EADE00691F63 /* ShopViewController.swift */,
 				796A7704248007C000F9B9F6 /* ViewController.swift */,
 				79D2F05E2480E87B00C362D6 /* SecondViewController.swift */,
 			);
@@ -88,6 +107,7 @@
 		79D2F061248136A200C362D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				79AA402A2483EAF800691F63 /* ShopViewCell.swift */,
 				796A7706248007C000F9B9F6 /* Main.storyboard */,
 			);
 			path = View;
@@ -121,7 +141,7 @@
 				796A76F9248007C000F9B9F6 /* Sources */,
 				796A76FA248007C000F9B9F6 /* Frameworks */,
 				796A76FB248007C000F9B9F6 /* Resources */,
-				A51FC10C5D2CCF2671450A01 /* [CP] Embed Pods Frameworks */,
+				00B64C28C04BC48B6F684120 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +199,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00B64C28C04BC48B6F684120 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		90552795BD3D2A785F600C96 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,23 +238,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A51FC10C5D2CCF2671450A01 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CookieClicker/Pods-CookieClicker-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -225,7 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795F4F11248406BC00555749 /* DataModel.xcdatamodeld in Sources */,
+				79AA402B2483EAF800691F63 /* ShopViewCell.swift in Sources */,
 				79D2F05F2480E87B00C362D6 /* SecondViewController.swift in Sources */,
+				79AA40292483EADE00691F63 /* ShopViewController.swift in Sources */,
+				795F4F362484306C00555749 /* TableViewItems.swift in Sources */,
 				796A7705248007C000F9B9F6 /* ViewController.swift in Sources */,
 				796A7701248007C000F9B9F6 /* AppDelegate.swift in Sources */,
 				796A7703248007C000F9B9F6 /* SceneDelegate.swift in Sources */,
@@ -428,6 +452,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		795F4F0F248406BC00555749 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				795F4F10248406BC00555749 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 795F4F10248406BC00555749 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = ../Controllers/DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 796A76F5248007BF00F9B9F6 /* Project object */;
 }
